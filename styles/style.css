@@ -1,2 +1,78 @@
 /* font-family: "Arimo", sans-serif;
 font-family: "Inter", sans-serif; */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+}
+
+/* RE-USABLE CSS STYLES STARTS FROM HERE */
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+.primary-button {
+	border: none;
+	background-color: #1d4ed8;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+/* STYLES FOR NAVIGATION BAR STARTS FROM HERE */
+header nav {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav .middle-section ul {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+header nav .middle-section ul li {
+	list-style: none;
+}
+header nav .middle-section ul li a {
+	text-decoration: none;
+	color: #575757;
+	font-family: "Arimo", sans-serif;
+	font-size: 16px;
+}
+
+/* STYLES FOR BANNER SECTION STARTS FROM HERE */
+.banner {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(/assets/banner.jpg);
+	padding-top: 136px;
+	padding-bottom: 80px;
+	color: white;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.banner h1 {
+	font-size: 80px;
+	font-weight: bolder;
+	margin-bottom: 16px;
+}
+.banner p {
+	font-size: 16px;
+	width: 600px;
+	margin: auto;
+	margin-bottom: 280px;
+}
+.primary-button-modification {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-size: 24px;
+}
