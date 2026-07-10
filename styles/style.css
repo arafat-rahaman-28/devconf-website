@@ -121,3 +121,127 @@ header nav .middle-section ul li a {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 32px;
 }
+
+/* STYLES FOR SECURE YOUR POSITION STARTS FROM HERE */
+.secure-spot-section {
+	margin-top: 120px;
+}
+.secure-spot-section .main-heading {
+	font-weight: bold;
+	font-size: 48px;
+	color: #0d1b2a;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.secure-spot-section .main-sub-heading {
+	font-size: 16px;
+	color: #575757;
+	margin-bottom: 16px;
+	text-align: center;
+}
+.pricing-card {
+	width: 100%;
+	max-width: 380px;
+	background-color: #ffffff;
+	border: 1px solid rgb(223, 223, 223);
+	border-radius: 16px;
+	padding: 32px;
+	box-sizing: border-box;
+}
+
+.card-header {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.plan-type {
+	color: #88888888;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.plan-price {
+	color: #0d1b2a;
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+	line-height: 1.1;
+}
+
+.plan-per-person {
+	color: #88888888;
+	font-size: 15px;
+}
+
+.divider {
+	border: none;
+	border-top: 1px solid #f0f1f3;
+	margin: 24px 0;
+}
+
+.features {
+	padding-left: 12px;
+	margin: 0 0 32px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.features li {
+	color: #333333;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.features li::marker {
+	color: #2563eb;
+}
+
+.plan-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 14px 24px;
+	background-color: transparent;
+	color: #2563eb;
+	border: 1.5px solid #2563eb;
+	border-radius: 8px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1;
+	cursor: pointer;
+}
+.pricing-cards {
+	margin-top: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+#pro-plan {
+	background-color: #0b1523;
+	border-color: #0b1523;
+}
+#pro-plan .plan-type {
+	color: #3b82f6;
+}
+#pro-plan .plan-price {
+	color: #ffffff;
+}
+#pro-plan .plan-per-person {
+	color: #94a3b8;
+}
+#pro-plan .divider {
+	border-top: 1px solid #1e293b;
+}
+#pro-plan .features li {
+	color: #e2e8f0;
+}
+#pro-plan .plan-button {
+	background-color: #2563eb;
+	color: #ffffff;
+}
