@@ -291,3 +291,61 @@ header nav .middle-section ul li a {
 	align-items: center;
 	gap: 32px;
 }
+
+/* STYLES FOR FOOTER STARTS FROM HERE */
+footer {
+	margin-top: 120px;
+	background-color: #0d1b2a;
+	padding-top: 24px;
+	padding-bottom: 48px;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+footer .main-footer-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 48px 24px;
+}
+footer .main-footer-section .social-links div {
+	display: flex;
+	gap: 20px;
+}
+footer .main-footer-section .social-links div img {
+	width: 24px;
+}
+footer .main-footer-section .social-links p {
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 12px;
+}
+footer .main-footer-section .logo img {
+	width: 180px;
+}
+footer .copyright-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .copyright-section p {
+	color: #919191;
+}
+footer .copyright-section ul {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+footer .copyright-section ul li a {
+	text-decoration: none;
+	color: #919191;
+}
+footer .copyright-section ul li {
+	list-style: none;
+}
+.footer-divider {
+	border: none;
+	height: 0.2px;
+	background-color: #626262;
+
+	margin-bottom: 44px;
+}
