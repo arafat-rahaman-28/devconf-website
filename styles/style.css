@@ -8,7 +8,7 @@ font-family: "Inter", sans-serif; */
 
 /* RE-USABLE CSS STYLES STARTS FROM HERE */
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: auto;
 }
 .primary-button {
@@ -75,4 +75,49 @@ header nav .middle-section ul li a {
 	padding-left: 32px;
 	padding-right: 32px;
 	font-size: 24px;
+}
+
+/* STYLES FOR SPEAKERS SECTION STARTS FROM HERE */
+.speakers-section h1 {
+	text-align: center;
+	font-size: 56px;
+	font-weight: bold;
+	margin-bottom: 56px;
+	margin-top: 80px;
+}
+.speaker {
+	border: 1px solid rgb(223, 223, 223);
+	width: 642px;
+	border-radius: 12px;
+}
+.speaker div {
+	padding: 24px;
+}
+.speaker img {
+	width: 100%;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.speaker .category {
+	font-weight: 500;
+	font-size: 12px;
+	color: #2563eb;
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+.speaker .name {
+	font-weight: bold;
+	font-size: 20px;
+	color: #0d1b2a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.speaker .company {
+	font-size: 14px;
+	color: #575757;
+}
+.speakers {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 32px;
 }
