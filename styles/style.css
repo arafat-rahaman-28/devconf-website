@@ -245,3 +245,49 @@ header nav .middle-section ul li a {
 	background-color: #2563eb;
 	color: #ffffff;
 }
+
+/* STYLES FOR WHY ATTEND SECTION STARTS FROM HERE */
+.why-attend {
+	margin-top: 120px;
+}
+.why-attend .why-attend-headings h1 {
+	font-weight: bold;
+	font-size: 48px;
+	color: #0d1b2a;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.why-attend .why-attend-headings p {
+	font-size: 16px;
+	color: #575757;
+	margin-bottom: 16px;
+	text-align: center;
+}
+.why-attend .attend-cards .attend-card img {
+	width: 64px;
+	padding-bottom: 8px;
+}
+.why-attend .attend-cards .attend-card {
+	border: 1px solid rgb(223, 223, 223);
+	border-radius: 12px;
+	width: 250px;
+	text-align: center;
+	padding: 24px;
+}
+.why-attend .attend-cards .attend-card h2 {
+	font-size: 32px;
+	margin-bottom: 12px;
+	color: #0d1b2a;
+}
+.why-attend .attend-cards .attend-card p {
+	width: 100%;
+	margin: auto;
+	color: #333333;
+}
+.why-attend .attend-cards {
+	margin-top: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
